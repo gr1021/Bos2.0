@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>AngularJs基于mvc</title>
+		<script type="text/javascript" src="../js/angular.min.js"></script>
+	</head>
+	<body  ng-app="myapp" ng-controller="mycontro">
+		<div>
+			<!--ng-model模型作用-->
+			<input type="text" name="name" ng-model="name"/>
+		</div>
+		<div>
+			<!--显示数据 {{}} 等价于ng-bind-->
+			hello ，{{name}}
+		</div>
+	</body>
+	<script type="text/javascript">
+		//初始化myapp模块：
+		var myapp = angular.module("myapp",[]);
+		//定义模块的控制器
+		//依赖注入 $scope作用域对象，操作当前作用域视图
+		myapp.controller("mycontro",["$scope",function($scope){
+			$scope.name="itcast";
+		}]);
+		
+	</script>
+</html>
