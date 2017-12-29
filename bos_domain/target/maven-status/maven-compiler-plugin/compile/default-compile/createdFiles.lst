@@ -1,0 +1,14 @@
+cn\itcast\bos\domain\take_delivery\Promotion.class
+cn\itcast\bos\domain\take_delivery\WorkBill.class
+cn\itcast\bos\domain\base\Archive.class
+cn\itcast\bos\domain\base\Courier.class
+cn\itcast\bos\domain\base\SubArea.class
+cn\itcast\bos\domain\base\Vehicle.class
+cn\itcast\bos\domain\take_delivery\Order.class
+cn\itcast\bos\domain\base\FixedArea.class
+cn\itcast\bos\domain\take_delivery\WayBill.class
+cn\itcast\bos\domain\base\SubArchive.class
+cn\itcast\bos\domain\page\PageBean.class
+cn\itcast\bos\domain\base\TakeTime.class
+cn\itcast\bos\domain\base\Area.class
+cn\itcast\bos\domain\base\Standard.class
